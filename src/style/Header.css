@@ -1,9 +1,10 @@
 .container {
-    background-color: aqua;
+    background-color: white;
     width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 5px solid #F5EFE6;
 }
 
 .menu {

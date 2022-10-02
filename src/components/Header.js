@@ -6,11 +6,12 @@ const Header = () => {
     return (
         <div className="container">
             <div className="logo">
-                <h1>Logo</h1>
+                <Link to="/" className="link">LOGO</Link>
             </div>
             <div className="menu">
                 <Link to="/" className="link">Home</Link>
-                <Link to="/" className="link">Shop</Link>
+                <Link to="/shop" className="link">Shop</Link>
+                <Link to="/cart" className="link">Cart</Link>
             </div>
         </div>
     );

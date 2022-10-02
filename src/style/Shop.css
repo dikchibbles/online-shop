@@ -1,0 +1,28 @@
+.shop {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px
+}
+
+.item {
+    min-width: 200px;
+    max-width: fit-content;
+    height: 250px;
+    display: flex;
+    box-shadow: 2px 5px 20px;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    gap: 10px
+}
+
+.item-title {
+    max-width: 90%;
+}
+
+.item-image {
+    height: 150px;
+    width: 150px;
+}
+

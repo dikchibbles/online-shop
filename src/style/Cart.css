@@ -1,0 +1,18 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+    gap: 25px;
+}
+
+.quantity {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.cart i {
+    cursor: pointer;
+}
+

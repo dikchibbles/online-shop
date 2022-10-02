@@ -1,0 +1,29 @@
+.cart-container {
+    position: fixed;
+    top: 50%;
+    right: -30px;
+    transform: translate(-50%, -50%);
+    height: 140px;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.close {
+    align-self: flex-end;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.floating-cart {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: #7D6E83;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
