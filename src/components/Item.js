@@ -17,9 +17,7 @@ const Item = (props) => {
     }
 
     const renderAddAndReduceBtns = () => {
-        return (
-            
-        )
+        return 
     }
 
     return (
